@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/cast"
+        android:title="Cast"
+        app:actionProviderClass="androidx.mediarouter.app.MediaRouteActionProvider"
+        app:showAsAction="always" />
+    <group>
+        <item
+            android:id="@+id/nowPlayList"
+            android:icon="@drawable/ic_group_collapse_08"
+            android:title="재생 중인 플레이리스트"/>
+        <item
+            android:id="@+id/app_info"
+            android:title="앱 정보"/>
+    </group>
+</menu>

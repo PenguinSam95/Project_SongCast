@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">송캐스트</string>
+    <string name="app_id">91310B7D</string>
+    <string name="nav_open">OPEN</string>
+    <string name="nav_close">CLOSE</string>
+    <string name="media_route_menu_title">CASTING SONG</string>
+</resources>

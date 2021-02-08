@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <EditText
+        android:id="@+id/create_playlist_dialog_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:maxLength="25"
+        android:hint="타이틀 (30자 이하)"
+        android:backgroundTint="@color/MainColor"
+        app:tabTextAppearance="@style/sp16text"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
+        <requestFocus/>
+    </EditText>
+    <TextView
+        android:id="@+id/create_playlist_dialog_error"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:maxLines="1"
+        android:text=""
+        android:textColor="#F11F1F"
+        app:tabTextAppearance="@style/sp16text"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+</LinearLayout>

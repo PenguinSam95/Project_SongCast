@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_library"
+            android:icon="@drawable/ic_library"
+            android:title="라이브러리"
+            />
+        <item
+            android:id="@+id/menu_playList"
+            android:icon="@drawable/ic_play_list"
+            android:title="플레이리스트"
+            />
+        <item
+            android:id="@+id/menu_refresh"
+            android:icon="@drawable/ic_refresh"
+            android:title="MP3 리스트 새로고침"
+            />
+        <item
+            android:id="@+id/menu_app_info"
+            android:icon="@drawable/ic_infomation"
+            android:title="앱 정보"
+            />
+    </group>
+</menu>
